@@ -3,6 +3,7 @@ import Check from './Check'
 import Counter from './Counter'
 import Header from './Header'
 import List from './List'
+import Radio from './Radio'
 import RepeatText from './RepeatText'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <List animalArray={['ko', 'häst', 'hund', 'giraff']}/>
       <Counter/>
       <Check/>
+      <Radio/>
     </>
   )
 }
