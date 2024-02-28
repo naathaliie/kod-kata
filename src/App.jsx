@@ -1,4 +1,6 @@
 import './App.css'
+import Check from './Check'
+import Counter from './Counter'
 import Header from './Header'
 import List from './List'
 import RepeatText from './RepeatText'
@@ -12,6 +14,8 @@ function App() {
       <Header headerText="Steg 4, klart"/>
       <RepeatText count={7} text="En liten båt blir ofta våt om magen när det stänker"/>
       <List animalArray={['ko', 'häst', 'hund', 'giraff']}/>
+      <Counter/>
+      <Check/>
     </>
   )
 }

@@ -4,11 +4,13 @@ Komponenten innehåller sedan så många p-taggar som count
 är och texten inne i p-taggarna är det som finns i propen text. */
 
 const RepeatText = ({ count, text }) => {
+
+
   const paragraph = Array.from({length: count}, (index) => (
     <p key={index}>{text}</p>
   ))
 
-  return <div>{paragraph}</div>
+  return <div>{paragraph}</div>;
 };
 
 export default RepeatText;

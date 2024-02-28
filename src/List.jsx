@@ -5,8 +5,8 @@ dessa djurnamn med ul- och li-taggar. Visa List i App. */
 const List = ({ animalArray }) => {
   return (
     <ul>
-      {animalArray.map((animal) => {
-        return <li>{animal}</li>;
+      {animalArray.map((animal, index) => {
+        return <li key={index}>{animal}</li>;
       })}
     </ul>
   );
