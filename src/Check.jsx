@@ -20,7 +20,7 @@ const handleChangeDog = () => {
 };
 
   return (
-    <div>
+    <div className="checkDiv">
       <div>
         <input type="checkbox" id="katt" name="katt" onChange={handleChangeCat}/>
         <label htmlFor="katt">katt</label>

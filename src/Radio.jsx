@@ -15,7 +15,7 @@ const [drone, setDrone] = useState("");
     };
 
   return (
-    <div>
+    <div className="radioDiv">
       <fieldset>
         <legend>Select a maintenance drone: {drone}</legend>
 

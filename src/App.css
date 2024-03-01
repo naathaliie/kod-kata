@@ -1,0 +1,33 @@
+#root{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .headerDiv{
+        border: 3px solid red;
+    }
+
+    .repeatTextDiv{
+        border: 3px solid green;
+    }
+
+    .listDiv{
+        border: 3px solid purple;
+    }
+
+    .counterDiv{
+        border: 3px solid blue;
+    }
+
+    .checkDiv{
+        border: 3px solid hotpink;
+    }
+
+    .radioDiv{
+        border: 3px solid orange;
+    }
+
+    .dropDownDiv{
+        border: 3px solid yellowgreen;
+    }
+}

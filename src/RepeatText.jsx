@@ -10,7 +10,7 @@ const RepeatText = ({ count, text }) => {
     <p key={index}>{text}</p>
   ))
 
-  return <div>{paragraph}</div>;
+  return <div className="repeatTextDiv">{paragraph}</div>;
 };
 
 export default RepeatText;

@@ -4,11 +4,11 @@ dessa djurnamn med ul- och li-taggar. Visa List i App. */
 
 const List = ({ animalArray }) => {
   return (
-    <ul>
+   <div className="listDiv"> <ul>
       {animalArray.map((animal, index) => {
         return <li key={index}>{animal}</li>;
       })}
-    </ul>
+    </ul></div>
   );
 };
 

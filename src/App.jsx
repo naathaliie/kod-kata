@@ -1,6 +1,7 @@
 import './App.css'
 import Check from './Check'
 import Counter from './Counter'
+import DropDown from './DropDown'
 import Header from './Header'
 import List from './List'
 import Radio from './Radio'
@@ -18,6 +19,7 @@ function App() {
       <Counter/>
       <Check/>
       <Radio/>
+      <DropDown/>
     </>
   )
 }

@@ -17,7 +17,7 @@ const Counter = () => {
         setCount(count -1)
     };
 
-    return <div>
+    return <div className="counterDiv">
         <button onClick={handleAddClick}>+</button>
         <p>{count}</p>
         <button onClick={handleRemoveClick}>-</button>
